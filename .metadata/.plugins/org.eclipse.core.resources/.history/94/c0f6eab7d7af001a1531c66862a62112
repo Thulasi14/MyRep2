@@ -1,0 +1,64 @@
+package dataDrivenTesting;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class MainClass extends FacebookCheck{
+	
+	public static void main(String[] args) {
+		
+		Workbook wb=null;
+		
+		try(InputStream ip=new FileInputStream("C:\\Users\\home\\Desktop\\Thulasi StudyMaterials\\TestExcel.xlsx")){
+			wb=new XSSFWorkbook(ip);	
+		}
+		
+		catch(Exception e) {
+			System.out.println("File Not Found Exception");
+		}
+		
+		List<Object> m=new ArrayList<Object>();
+		
+		Sheet sheet = wb.getSheetAt(0);
+		
+		int rows = sheet.getPhysicalNumberOfRows();
+		
+		for(int i=0;i<rows;i++) {
+			
+			int count=0;
+			
+			Row row = sheet.getRow(i);
+			
+			int cells = row.getPhysicalNumberOfCells();
+			
+			for(int j=0;j<cells;j++) {
+				
+				m.add(row.getCell(j));
+				count++;
+				
+				if(count==2) {
+					
+					for(int x=0;x<m.size();x++) {
+						
+						for(int y=x+1;y<m.size();y++) {
+					
+							FacebookCheck.login(m.get(x).toString(), m.get(y).toString());
+						}
+					}
+				}
+			}
+		}
+		
+		
+	}
+
+}

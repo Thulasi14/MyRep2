@@ -1,0 +1,19 @@
+
+public class StaticandNonStaticMethod {
+	
+	public static int a=10;
+	
+	public static void method1() {
+		
+		System.out.println(a);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		StaticandNonStaticMethod a=new StaticandNonStaticMethod();
+		
+		a.method1();
+	}
+
+}

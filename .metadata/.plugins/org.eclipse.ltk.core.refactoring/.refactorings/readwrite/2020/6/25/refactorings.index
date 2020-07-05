@@ -1,0 +1,5 @@
+1592312114696	Extract local variable 'findElement'
+1592312631307	Extract local variable 'sheetAt'
+1592312647274	Extract local variable 'physicalNumberOfRows'
+1592312737801	Extract local variable 'row'
+1592312750127	Extract local variable 'physicalNumberOfCells'

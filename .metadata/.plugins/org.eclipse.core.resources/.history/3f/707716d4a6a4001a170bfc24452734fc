@@ -1,0 +1,11 @@
+
+public class ClassA {
+	
+
+	public void block1(){
+		
+		System.out.println("Block1");
+		
+	}
+	
+}

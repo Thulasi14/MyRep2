@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\home\NewMavenWorkspace\WebTable\src\tablePackage\WebTableClass.java"/>
+			<item value="C:\Users\home\NewMavenWorkspace\checklogin\src\test\java\checkloginPackage\checkloginClass.java"/>
+			<item value="C:\Users\home\NewMavenWorkspace\NewProject\src\samplePackage\HelloClass.java"/>
+			<item value="C:\Users\home\NewMavenWorkspace\onlineShopping\pom.xml"/>
+			<item value="C:\Users\home\NewMavenWorkspace\"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.interview.addtocart"/>
+			<item value="com.api.advancedApi"/>
+			<item value="com.cucumber.parllel"/>
+			<item value="com.excel.readwrite"/>
+			<item value="com.selenium.brokenlinks"/>
+			<item value="com.login.dataproviders"/>
+			<item value="com.new.loginModule"/>
+			<item value="com.new.facebookloginFeatures"/>
+			<item value="com.facebook.checklogin"/>
+			<item value="com.browser.demo"/>
+			<item value="com.browser.login"/>
+			<item value="com.messenger.snapchat"/>
+			<item value="com.messenger.whatsapp"/>
+		</list>
+		<list key="groupId">
+			<item value="com.interview"/>
+			<item value="com.api"/>
+			<item value="com.cucumber"/>
+			<item value="com.excel"/>
+			<item value="com.selenium"/>
+			<item value="com.login"/>
+			<item value="com.new"/>
+			<item value="com.facebook"/>
+			<item value="com.browser"/>
+			<item value="com.messenger"/>
+		</list>
+		<list key="artifactId">
+			<item value="addtocart"/>
+			<item value="advancedApi"/>
+			<item value="parllel"/>
+			<item value="readwrite"/>
+			<item value="brokenlinks"/>
+			<item value="dataproviders"/>
+			<item value="loginModule"/>
+			<item value="loginFeatures"/>
+			<item value="checklogin"/>
+			<item value="demo"/>
+			<item value="login"/>
+			<item value="snapchat"/>
+			<item value="whatsapp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="529"/>
+		<item key="x" value="443"/>
+		<item key="y" value="12"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="http://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+</section>

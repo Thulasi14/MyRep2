@@ -1,0 +1,13 @@
+1591841752275	Delete element
+1591841760458	Delete element
+1591842124466	Extract local variable 'findElements'
+1591842150267	Extract local variable 'iterator'
+1591843277178	Extract local variable 'findElements'
+1591849943793	Extract local variable 'findElement'
+1591850045049	Extract local variable 'findElement'
+1591850172132	Extract local variable 'findElements'
+1591850582861	Extract local variable 'text'
+1591851566322	Extract local variable 'findElement'
+1591859519622	Extract local variable 'findElement'
+1591860025499	Extract local variable 'options'
+1591860054961	Extract local variable 'nextInt'

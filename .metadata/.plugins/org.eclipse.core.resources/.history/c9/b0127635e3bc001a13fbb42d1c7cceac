@@ -1,0 +1,10 @@
+url=https://www.amazon.in/
+login=id#nav-link-accountList
+username=id#ap_email
+submit=id#continue
+password=id#ap_password
+submitpwd=id#signInSubmit
+tosearch=id#twotabsearchtextbox
+toselect=xpath#//a[@class='a-link-normal a-text-normal']
+select=xpath#//span[contains(text(),'Chex')]
+addToCart=id#submit.add-to-cart-announce

@@ -1,0 +1,39 @@
+
+public class StaticLogic {
+	
+	public int a=10;
+	
+	public void method() {
+	System.out.println(a);
+	}
+	
+	static {
+		
+		System.out.println("Selenium");
+	}
+	
+	static {
+		
+		System.out.println("Apple");
+		//System.exit(0);
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println("MainExecution");
+		
+		StaticLogic s=new StaticLogic();
+		
+		s.method();
+		
+		s.a=20;
+		
+		s.method();
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.messenger</groupId>
+  <artifactId>snapchat</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>snapchat</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <build>
+  		<resources>
+  			<resource>
+  				<directory>/snapchat/src/main/resources</directory>
+  				<filtering>true</filtering>
+  			</resource>
+  		</resources>
+  </build>
+  
+  <profiles>
+  					<profile>
+  						<id>prod</id>
+  						<build>
+  							<finalName>${project.artifactId}-prod</finalName>
+  								<filters>
+  									<filter>src/main/resources/tobefiltered/prop1.properties</filter>
+  								</filters>
+  						</build>
+  					</profile>
+  					
+  					<profile>
+  						<id>qa</id>
+  						<build>
+  							<finalName>${project.artifactId}-qa</finalName>
+  								<filters>
+  									<filter>src/main/resources/tobefiltered/prop2.properties</filter>
+  								</filters>
+  						</build>
+  					</profile>
+  					
+  					<profile>
+  						<id>reg</id>
+  						<build>
+  							<finalName>${project.artifactId}-reg</finalName>
+  								<filters>
+  									<filter>src/main/resources/tobefiltered/prop3.properties</filter>
+  								</filters>
+  						</build>
+  					</profile>
+  </profiles>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

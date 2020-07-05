@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: loginModule.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 112.778 s - in loginModule.TestRunnerClass

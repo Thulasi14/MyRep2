@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="106.005">
+<testcase classname="To test functionality of facebook" name="To test login functionality of facebook" time="38.741">
+<system-out><![CDATA[Given user launches the url "https://www.facebook.com"......................passed
+When user inputs the credentials "Thulasi" "123456".........................passed
+And user clicks login.......................................................passed
+Then user verifies the login page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test functionality of facebook" name="To test login functionality of facebook 2" time="24.23">
+<system-out><![CDATA[Given user launches the url "https://www.facebook.com"......................passed
+When user inputs the credentials "Rose" "45673".............................passed
+And user clicks login.......................................................passed
+Then user verifies the login page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test functionality of facebook" name="To test login functionality of facebook 3" time="42.75">
+<system-out><![CDATA[Given user launches the url "https://www.facebook.com"......................passed
+When user inputs the credentials "Lily" "4567t3"............................passed
+And user clicks login.......................................................passed
+Then user verifies the login page...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

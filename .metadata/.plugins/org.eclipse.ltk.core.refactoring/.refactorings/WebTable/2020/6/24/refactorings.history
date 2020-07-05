@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;findElement&apos; from expression &apos;driver.findElement(By.xpath(&quot;//table[@height=\&quot;100%\&quot;]&quot;))&apos;&#x0D;&#x0A;- Original project: &apos;WebTable&apos;&#x0D;&#x0A;- Variable name: &apos;findElement&apos;&#x0D;&#x0A;- Destination method: &apos;tablePackage.WebTableClass.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;driver.findElement(By.xpath(&quot;//table[@height=\&quot;100%\&quot;]&quot;))&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;findElement&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;tablePackage{WebTableClass.java" name="findElement" replace="true" selection="510 0" stamp="1591716127758" varType="false" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+1591060349969	Rename type 'Class_A'
+1591066106305	Delete element
+1591084877385	Extract local variable 'integer'
+1591085192870	Extract local variable 'integer'
+1591085781871	Extract local variable 'iterator'
+1591182054557	Extract local variable 'charArray'
+1591182563979	Extract local variable 'numericValue'
+1591183819249	Extract local variable 'string'
+1591184233157	Extract local variable 'split'
+1591191133043	Extract local variable 'charArray'
+1591192591983	Copy compilation unit
+1591192602816	Delete element
+1591192705645	Extract local variable 'split'
+1591238501589	Extract local variable 'split'

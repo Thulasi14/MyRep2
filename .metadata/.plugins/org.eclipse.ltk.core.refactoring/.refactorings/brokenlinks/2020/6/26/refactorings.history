@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;findElement&apos; from expression &apos;driver.findElement(By.className(&quot;upload_txt&quot;))&apos;&#x0D;&#x0A;- Original project: &apos;brokenlinks&apos;&#x0D;&#x0A;- Variable name: &apos;findElement&apos;&#x0D;&#x0A;- Destination method: &apos;scenarios.FileUpload.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;driver.findElement(By.className(&quot;upload_txt&quot;))&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;findElement&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;scenarios{FileUpload.java" name="findElement" replace="true" selection="485 0" stamp="1592789637740" varType="false" version="1.0"/>
+</session>

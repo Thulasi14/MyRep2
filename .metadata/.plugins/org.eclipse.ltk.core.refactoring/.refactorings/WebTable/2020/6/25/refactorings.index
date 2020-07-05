@@ -1,0 +1,7 @@
+1592289038049	Extract local variable 'findElement'
+1592289102049	Extract local variable 'tagName'
+1592289130292	Extract local variable 'location'
+1592289580751	Extract local variable 'size'
+1592289759156	Extract local variable 'rect'
+1592289776018	Extract local variable 'height'
+1592402611597	Extract local variable 'setProperty'

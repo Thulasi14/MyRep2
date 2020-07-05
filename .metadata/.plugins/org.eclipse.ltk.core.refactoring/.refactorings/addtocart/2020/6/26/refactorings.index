@@ -1,0 +1,18 @@
+1592898411867	Delete element
+1592898420385	Delete element
+1592899327926	Delete element
+1592900236234	Rename type 'propertyFileRead'
+1592900907737	Extract local variable 'read'
+1592901025473	Delete element
+1592901382387	Rename type 'page1'
+1592901682602	Delete element
+1592907764751	Extract local variable 'locator'
+1592963871982	Extract local variable 'findElement'
+1592965207891	Extract local variable 'locator'
+1592967232992	Extract local variable 'read'
+1592972767310	Extract local variable 'locator'
+1592973626790	Extract local variable 'locator'
+1592973693320	Extract local variable 'locator'
+1592973895199	Extract local variable 'locator'
+1592976978743	Extract local variable 'read'
+1592977001352	Extract local variable 'locator'

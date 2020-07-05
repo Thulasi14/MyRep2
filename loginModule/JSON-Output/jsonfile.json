@@ -1,0 +1,238 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-18T13:34:45.563Z",
+        "line": 13,
+        "name": "To test login functionality of facebook",
+        "description": "",
+        "id": "to-test-functionality-of-facebook;to-test-login-functionality-of-facebook;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18835000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launches the url \"https://www.facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "loginModule.steps.user_launches_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2674000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user inputs the credentials \"Thulasi\" \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thulasi\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 38
+                }
+              ],
+              "location": "loginModule.steps.user_inputs_the_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14627000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks login",
+            "match": {
+              "location": "loginModule.steps.user_clicks_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2256000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies the login page",
+            "match": {
+              "location": "loginModule.steps.user_verifies_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-18T13:35:24.359Z",
+        "line": 14,
+        "name": "To test login functionality of facebook",
+        "description": "",
+        "id": "to-test-functionality-of-facebook;to-test-login-functionality-of-facebook;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11132000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launches the url \"https://www.facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "loginModule.steps.user_launches_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1226000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user inputs the credentials \"Rose\" \"45673\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rose\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"45673\"",
+                  "offset": 35
+                }
+              ],
+              "location": "loginModule.steps.user_inputs_the_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 577000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks login",
+            "match": {
+              "location": "loginModule.steps.user_clicks_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11284000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies the login page",
+            "match": {
+              "location": "loginModule.steps.user_verifies_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-18T13:35:48.598Z",
+        "line": 15,
+        "name": "To test login functionality of facebook",
+        "description": "",
+        "id": "to-test-functionality-of-facebook;to-test-login-functionality-of-facebook;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10267000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launches the url \"https://www.facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "loginModule.steps.user_launches_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1123000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user inputs the credentials \"Lily\" \"4567t3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lily\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"4567t3\"",
+                  "offset": 35
+                }
+              ],
+              "location": "loginModule.steps.user_inputs_the_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 545000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks login",
+            "match": {
+              "location": "loginModule.steps.user_clicks_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30805000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies the login page",
+            "match": {
+              "location": "loginModule.steps.user_verifies_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test functionality of facebook",
+    "description": "",
+    "id": "to-test-functionality-of-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/scenarioout.feature",
+    "tags": []
+  }
+]

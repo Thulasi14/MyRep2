@@ -1,0 +1,21 @@
+
+public class CallByValueandRef {
+	
+	
+	public void callByValue(int a) {
+		
+		a=20;
+		
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		CallByValueandRef cal=new CallByValueandRef();
+		
+		cal.callByValue(10);
+		
+	}
+
+}
